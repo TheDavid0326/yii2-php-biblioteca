@@ -74,68 +74,32 @@ Este proyecto es una aplicación web desarrollada en **Yii2** que permite a los 
 
 ## Capturas de Pantalla
 
-Página Principal
-Página principal de la aplicación con descripción y enlaces de acceso.
+<p align="center">
+    <h1 align="center">Vista de sesión iniciada</h1>
+    <img src="https://i.imgur.com/tW4MeeO.jpeg" height="500px">
+    <br>
+</p>
 
-Lista de Libros
-Lista de libros con paginación y opciones de filtrado.
+<p align="center">
+    <h1 align="center">Lista de libros privada</h1>
+    <img src="https://i.imgur.com/8TMpsYv.jpeg" height="500px">
+    <br>
+</p>
 
-Formulario de Creación
-Formulario para añadir un nuevo libro a la colección.
+<p align="center">
+    <h1 align="center">Lista de libros pública</h1>
+    <img src="https://i.imgur.com/xtwilfR.jpeg" height="500px">
+    <br>
+</p>
 
-Contribuciones
-Las contribuciones son bienvenidas. Si deseas mejorar este proyecto, por favor sigue estos pasos:
-
-Haz un fork del proyecto.
-
-Crea una rama para tu feature (git checkout -b feature/nueva-funcionalidad).
-
-Realiza tus cambios y haz commit (git commit -m 'Añade nueva funcionalidad').
-
-Haz push a la rama (git push origin feature/nueva-funcionalidad).
-
-Abre un Pull Request.
-
-Instalar Dependencias:
-
-bash
-Copy
-composer install
-Configurar la Base de Datos:
-
-Crear una base de datos MySQL.
-
-Configurar las credenciales de la base de datos en config/db.php.
-
-Ejecutar Migraciones:
-
-bash
-Copy
-php yii migrate
-Iniciar el Servidor:
-
-bash
-Copy
-php yii serve
-Acceder a la Aplicación:
-Abre tu navegador y visita http://localhost:8080.
-
-Capturas de Pantalla
-Página Principal
-Página principal de la aplicación con descripción y enlaces de acceso.
-
-Lista de Libros
-Lista de libros con paginación y opciones de filtrado.
-
-Formulario de Creación
-Formulario para añadir un nuevo libro a la colección.
-
+<p align="center">
+    <h1 align="center">Formulario de Actualización</h1>
+    <img src="https://i.imgur.com/2DLD0BT.jpeg" height="500px">
+    <br>
+</p>
 
 
 ## Licencia
 Este proyecto está bajo la licencia MIT. Consulta el archivo LICENSE para más detalles.
 
-¡Gracias por visitar este proyecto! Esperamos que te sea útil para gestionar tu biblioteca personal. Si tienes alguna pregunta o sugerencia, no dudes en contactarnos.Licencia
-Este proyecto está bajo la licencia MIT. Consulta el archivo LICENSE para más detalles.
-
-¡Gracias por visitar este proyecto! Esperamos que te sea útil para gestionar tu biblioteca personal. Si tienes alguna pregunta o sugerencia, no dudes en contactarnos.
+¡Gracias por visitar este proyecto! Esperamos que te sea útil para gestionar tu biblioteca personal.
