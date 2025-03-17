@@ -92,7 +92,7 @@ Este proyecto es una aplicación web desarrollada en **Yii2** que permite a los 
 
 <h1 align="center">Formulario de Actualización</h1>
 <p align="center">
-  <img src="https://i.imgur.com/2DLD0BT.jpeg" height="500">
+  <img src="https://i.imgur.com/gZnuiMf.jpeg" height="300">
 </p>
 
 
