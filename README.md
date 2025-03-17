@@ -74,28 +74,24 @@ Este proyecto es una aplicación web desarrollada en **Yii2** que permite a los 
 
 ## Capturas de Pantalla
 
+<h1 align="center">Vista de sesión iniciada</h1>
 <p align="center">
-    <h1 align="center">Vista de sesión iniciada</h1>
-    <img src="https://i.imgur.com/tW4MeeO.jpeg" height="300px">
-    <br>
+  <img src="https://i.imgur.com/tW4MeeO.jpeg" height="300">
 </p>
 
+<h1 align="center">Lista de libros privada</h1>
 <p align="center">
-    <h1 align="center">Lista de libros privada</h1>
-    <img src="https://i.imgur.com/8TMpsYv.jpeg" height="500px">
-    <br>
+  <img src="https://i.imgur.com/8TMpsYv.jpeg" height="500">
 </p>
 
+<h1 align="center">Lista de libros pública</h1>
 <p align="center">
-    <h1 align="center">Lista de libros pública</h1>
-    <img src="https://i.imgur.com/xtwilfR.jpeg" height="500px">
-    <br>
+  <img src="https://i.imgur.com/xtwilfR.jpeg" height="500">
 </p>
 
+<h1 align="center">Formulario de Actualización</h1>
 <p align="center">
-    <h1 align="center">Formulario de Actualización</h1>
-    <img src="https://i.imgur.com/2DLD0BT.jpeg" height="500px">
-    <br>
+  <img src="https://i.imgur.com/2DLD0BT.jpeg" height="500">
 </p>
 
 
