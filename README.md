@@ -4,7 +4,8 @@ Este proyecto es una aplicación web desarrollada en **Yii2** que permite a los 
 
 <p align="center">
     <h1 align="center">Página de Inicio</h1>
-    <img src="https://i.imgur.com/rBMKdmX.jpeg" height="500px">
+    <img src="https://i.imgur.com/rBMKdmX.jpeg" 
+         style="max-width: 100%; height: auto; border-radius: 10px; box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);">
     <br>
 </p>
 
