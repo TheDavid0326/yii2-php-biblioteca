@@ -76,7 +76,7 @@ Este proyecto es una aplicación web desarrollada en **Yii2** que permite a los 
 
 <p align="center">
     <h1 align="center">Vista de sesión iniciada</h1>
-    <img src="https://i.imgur.com/tW4MeeO.jpeg" height="500px">
+    <img src="https://i.imgur.com/tW4MeeO.jpeg" height="300px">
     <br>
 </p>
 
