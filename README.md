@@ -77,7 +77,7 @@ Este proyecto es una aplicación web desarrollada en **Yii2** que permite a los 
 
 <h1 align="center">Vista de sesión iniciada</h1>
 <p align="center">
-  <img src="https://i.imgur.com/tW4MeeO.jpeg" height="300">
+  <img src="https://i.imgur.com/tW4MeeO.jpeg" height="250">
 </p>
 
 <h1 align="center">Lista de libros privada</h1>
