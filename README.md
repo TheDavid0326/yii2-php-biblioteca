@@ -1,8 +1,6 @@
 <p align="center">
-    <a href="https://github.com/yiisoft" target="_blank">
-        <img src="https://avatars0.githubusercontent.com/u/993323" height="100px">
-    </a>
-    <h1 align="center">Yii 2 Basic Project Template</h1>
+    <img src="https://i.imgur.com/rBMKdmX.jpeg" height="100px">
+    <h1 align="center">Página de Inicio</h1>
     <br>
 </p>
 
@@ -13,221 +11,138 @@ The template contains the basic features including user login/logout and a conta
 It includes all commonly used configurations that would allow you to focus on adding new
 features to your application.
 
-[![Latest Stable Version](https://img.shields.io/packagist/v/yiisoft/yii2-app-basic.svg)](https://packagist.org/packages/yiisoft/yii2-app-basic)
-[![Total Downloads](https://img.shields.io/packagist/dt/yiisoft/yii2-app-basic.svg)](https://packagist.org/packages/yiisoft/yii2-app-basic)
-[![build](https://github.com/yiisoft/yii2-app-basic/workflows/build/badge.svg)](https://github.com/yiisoft/yii2-app-basic/actions?query=workflow%3Abuild)
+# Biblioteca Personal - Gestión de Libros
 
-DIRECTORY STRUCTURE
+Este proyecto es una aplicación web desarrollada en **Yii2** que permite a los usuarios gestionar su colección de libros de manera sencilla y eficaz. Desde la organización de títulos, autores y géneros, hasta la personalización con portadas de libros, esta aplicación está diseñada para bibliófilos que desean mantener su biblioteca ordenada y accesible.
+
+## Características Principales
+
+- **Gestión de Libros**: Añade, edita y elimina libros de tu colección.
+- **Búsqueda y Filtrado**: Filtra libros por género, autor o título para encontrar rápidamente lo que buscas.
+- **Portadas Personalizadas**: Sube portadas personalizadas para cada libro.
+- **Acceso Controlado**: Acceso restringido a usuarios autenticados para gestionar la biblioteca privada.
+- **Paginación**: Visualiza los libros en una lista paginada para una mejor experiencia de usuario.
+
+## ESTRUCTURA DEL DIRECTORIO
 -------------------
 
-      assets/             contains assets definition
-      commands/           contains console commands (controllers)
-      config/             contains application configurations
-      controllers/        contains Web controller classes
-      mail/               contains view files for e-mails
-      models/             contains model classes
-      runtime/            contains files generated during runtime
-      tests/              contains various tests for the basic application
-      vendor/             contains dependent 3rd-party packages
-      views/              contains view files for the Web application
-      web/                contains the entry script and Web resources
+        assets/         → Contiene la definición de los recursos estáticos (CSS, JS, imágenes, etc.).
+        commands/       → Contiene los comandos de consola (controladores para la terminal).
+        config/         → Contiene los archivos de configuración de la aplicación.
+        controllers/    → Contiene las clases de los controladores web.
+        mail/           → Contiene los archivos de vista para los correos electrónicos.
+        models/         → Contiene las clases de modelo (lógica de negocio y acceso a datos).
+        runtime/        → Contiene los archivos generados durante la ejecución de la aplicación.
+        tests/          → Contiene diversas pruebas para la aplicación básica.
+        vendor/         → Contiene los paquetes de terceros de los que depende la aplicación.
+        views/          → Contiene los archivos de vista para la interfaz web.
+        web/            → Contiene el script de entrada y los recursos accesibles desde el navegador.
 
-
-
-REQUIREMENTS
 ------------
 
-The minimum requirement by this project template that your Web server supports PHP 7.4.
+
+## Tecnologías Utilizadas
+
+- **Yii2**: Framework de PHP utilizado para el desarrollo de la aplicación.
+- **Bootstrap**: Framework de CSS para el diseño y la interfaz de usuario.
+- **HTML5 y CSS3**: Para la estructura y estilos de la aplicación.
+- **JavaScript**: Para interacciones dinámicas en el frontend.
+- **MySQL**: Base de datos utilizada para almacenar la información de los libros y usuarios.
+- **PHP**: Lenguaje de programación backend.
+- **Yii2 ActiveForm**: Para la creación de formularios de manera sencilla y eficiente.
+- **Yii2 Pagination**: Para la paginación de resultados en la lista de libros.
+- **Yii2 AccessControl**: Para gestionar el acceso a las diferentes partes de la aplicación.
+
+## Aprendizajes Clave
+
+- **MVC (Modelo-Vista-Controlador)**: Aprendizaje y aplicación del patrón de diseño MVC en Yii2.
+- **Autenticación y Autorización**: Implementación de sistemas de autenticación y control de acceso con Yii2.
+- **Formularios y Validación**: Creación y validación de formularios utilizando Yii2 ActiveForm.
+- **Subida de Archivos**: Gestión de la subida y almacenamiento de archivos (imágenes de portadas de libros).
+- **Paginación**: Implementación de paginación para mejorar la experiencia del usuario en listados largos.
+- **Búsqueda y Filtrado**: Desarrollo de funcionalidades de búsqueda y filtrado de datos.
+- **Bootstrap**: Uso de Bootstrap para el diseño responsive y la estilización de la interfaz de usuario.
+
+## Estructura del Proyecto
+
+- **Controladores**: 
+  - `LibroController`: Gestiona las operaciones CRUD (Crear, Leer, Actualizar, Eliminar) para los libros.
+  - `SiteController`: Maneja la lógica de la página principal, inicio de sesión y cierre de sesión.
+
+- **Vistas**:
+  - `site/index.php`: Página principal de la aplicación con una breve descripción y enlaces de acceso.
+  - `libro/`: Contiene las vistas para listar, crear, actualizar y ver detalles de los libros.
+
+- **Modelos**:
+  - `Libro`: Modelo que representa la entidad "Libro" y gestiona la lógica de negocio relacionada con los libros.
+  - `LibroSearch`: Modelo utilizado para la búsqueda y filtrado de libros.
+
+- **Assets**: Archivos CSS y JavaScript para la estilización y funcionalidades dinámicas.
+
+## Capturas de Pantalla
+
+Página Principal
+Página principal de la aplicación con descripción y enlaces de acceso.
+
+Lista de Libros
+Lista de libros con paginación y opciones de filtrado.
+
+Formulario de Creación
+Formulario para añadir un nuevo libro a la colección.
+
+Contribuciones
+Las contribuciones son bienvenidas. Si deseas mejorar este proyecto, por favor sigue estos pasos:
+
+Haz un fork del proyecto.
+
+Crea una rama para tu feature (git checkout -b feature/nueva-funcionalidad).
+
+Realiza tus cambios y haz commit (git commit -m 'Añade nueva funcionalidad').
+
+Haz push a la rama (git push origin feature/nueva-funcionalidad).
+
+Abre un Pull Request.
+
+Instalar Dependencias:
+
+bash
+Copy
+composer install
+Configurar la Base de Datos:
+
+Crear una base de datos MySQL.
+
+Configurar las credenciales de la base de datos en config/db.php.
+
+Ejecutar Migraciones:
+
+bash
+Copy
+php yii migrate
+Iniciar el Servidor:
+
+bash
+Copy
+php yii serve
+Acceder a la Aplicación:
+Abre tu navegador y visita http://localhost:8080.
+
+Capturas de Pantalla
+Página Principal
+Página principal de la aplicación con descripción y enlaces de acceso.
+
+Lista de Libros
+Lista de libros con paginación y opciones de filtrado.
+
+Formulario de Creación
+Formulario para añadir un nuevo libro a la colección.
 
 
-INSTALLATION
-------------
 
-### Install via Composer
+## Licencia
+Este proyecto está bajo la licencia MIT. Consulta el archivo LICENSE para más detalles.
 
-If you do not have [Composer](https://getcomposer.org/), you may install it by following the instructions
-at [getcomposer.org](https://getcomposer.org/doc/00-intro.md#installation-nix).
+¡Gracias por visitar este proyecto! Esperamos que te sea útil para gestionar tu biblioteca personal. Si tienes alguna pregunta o sugerencia, no dudes en contactarnos.Licencia
+Este proyecto está bajo la licencia MIT. Consulta el archivo LICENSE para más detalles.
 
-You can then install this project template using the following command:
-
-~~~
-composer create-project --prefer-dist yiisoft/yii2-app-basic basic
-~~~
-
-Now you should be able to access the application through the following URL, assuming `basic` is the directory
-directly under the Web root.
-
-~~~
-http://localhost/basic/web/
-~~~
-
-### Install from an Archive File
-
-Extract the archive file downloaded from [yiiframework.com](https://www.yiiframework.com/download/) to
-a directory named `basic` that is directly under the Web root.
-
-Set cookie validation key in `config/web.php` file to some random secret string:
-
-```php
-'request' => [
-    // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
-    'cookieValidationKey' => '<secret random string goes here>',
-],
-```
-
-You can then access the application through the following URL:
-
-~~~
-http://localhost/basic/web/
-~~~
-
-
-### Install with Docker
-
-Update your vendor packages
-
-    docker-compose run --rm php composer update --prefer-dist
-    
-Run the installation triggers (creating cookie validation code)
-
-    docker-compose run --rm php composer install    
-    
-Start the container
-
-    docker-compose up -d
-    
-You can then access the application through the following URL:
-
-    http://127.0.0.1:8000
-
-**NOTES:** 
-- Minimum required Docker engine version `17.04` for development (see [Performance tuning for volume mounts](https://docs.docker.com/docker-for-mac/osxfs-caching/))
-- The default configuration uses a host-volume in your home directory `.docker-composer` for composer caches
-
-
-CONFIGURATION
--------------
-
-### Database
-
-Edit the file `config/db.php` with real data, for example:
-
-```php
-return [
-    'class' => 'yii\db\Connection',
-    'dsn' => 'mysql:host=localhost;dbname=yii2basic',
-    'username' => 'root',
-    'password' => '1234',
-    'charset' => 'utf8',
-];
-```
-
-**NOTES:**
-- Yii won't create the database for you, this has to be done manually before you can access it.
-- Check and edit the other files in the `config/` directory to customize your application as required.
-- Refer to the README in the `tests` directory for information specific to basic application tests.
-
-
-TESTING
--------
-
-Tests are located in `tests` directory. They are developed with [Codeception PHP Testing Framework](https://codeception.com/).
-By default, there are 3 test suites:
-
-- `unit`
-- `functional`
-- `acceptance`
-
-Tests can be executed by running
-
-```
-vendor/bin/codecept run
-```
-
-The command above will execute unit and functional tests. Unit tests are testing the system components, while functional
-tests are for testing user interaction. Acceptance tests are disabled by default as they require additional setup since
-they perform testing in real browser. 
-
-
-### Running  acceptance tests
-
-To execute acceptance tests do the following:  
-
-1. Rename `tests/acceptance.suite.yml.example` to `tests/acceptance.suite.yml` to enable suite configuration
-
-2. Replace `codeception/base` package in `composer.json` with `codeception/codeception` to install full-featured
-   version of Codeception
-
-3. Update dependencies with Composer 
-
-    ```
-    composer update  
-    ```
-
-4. Download [Selenium Server](https://www.seleniumhq.org/download/) and launch it:
-
-    ```
-    java -jar ~/selenium-server-standalone-x.xx.x.jar
-    ```
-
-    In case of using Selenium Server 3.0 with Firefox browser since v48 or Google Chrome since v53 you must download [GeckoDriver](https://github.com/mozilla/geckodriver/releases) or [ChromeDriver](https://sites.google.com/a/chromium.org/chromedriver/downloads) and launch Selenium with it:
-
-    ```
-    # for Firefox
-    java -jar -Dwebdriver.gecko.driver=~/geckodriver ~/selenium-server-standalone-3.xx.x.jar
-    
-    # for Google Chrome
-    java -jar -Dwebdriver.chrome.driver=~/chromedriver ~/selenium-server-standalone-3.xx.x.jar
-    ``` 
-    
-    As an alternative way you can use already configured Docker container with older versions of Selenium and Firefox:
-    
-    ```
-    docker run --net=host selenium/standalone-firefox:2.53.0
-    ```
-
-5. (Optional) Create `yii2basic_test` database and update it by applying migrations if you have them.
-
-   ```
-   tests/bin/yii migrate
-   ```
-
-   The database configuration can be found at `config/test_db.php`.
-
-
-6. Start web server:
-
-    ```
-    tests/bin/yii serve
-    ```
-
-7. Now you can run all available tests
-
-   ```
-   # run all available tests
-   vendor/bin/codecept run
-
-   # run acceptance tests
-   vendor/bin/codecept run acceptance
-
-   # run only unit and functional tests
-   vendor/bin/codecept run unit,functional
-   ```
-
-### Code coverage support
-
-By default, code coverage is disabled in `codeception.yml` configuration file, you should uncomment needed rows to be able
-to collect code coverage. You can run your tests and collect coverage with the following command:
-
-```
-#collect coverage for all tests
-vendor/bin/codecept run --coverage --coverage-html --coverage-xml
-
-#collect coverage only for unit tests
-vendor/bin/codecept run unit --coverage --coverage-html --coverage-xml
-
-#collect coverage for unit and functional tests
-vendor/bin/codecept run functional,unit --coverage --coverage-html --coverage-xml
-```
-
-You can see code coverage output under the `tests/_output` directory.
+¡Gracias por visitar este proyecto! Esperamos que te sea útil para gestionar tu biblioteca personal. Si tienes alguna pregunta o sugerencia, no dudes en contactarnos.
