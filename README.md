@@ -3,10 +3,8 @@
 Este proyecto es una aplicación web desarrollada en **Yii2** que permite a los usuarios gestionar su colección de libros de manera sencilla y eficaz. Desde la organización de títulos, autores y géneros, hasta la personalización con portadas de libros, esta aplicación está diseñada para bibliófilos que desean mantener su biblioteca ordenada y accesible.
 
 <p align="center">
-    <h1 align="center">Página de Inicio</h1>
-    <img src="https://i.imgur.com/rBMKdmX.jpeg" 
-         style="max-width: 100%; height: auto; border-radius: 10px; box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);">
-    <br>
+  <h1 align="center">Página de Inicio</h1>
+  <img src="https://i.imgur.com/rBMKdmX.jpeg" alt="Página de Inicio" width="600">
 </p>
 
 ## Características Principales
