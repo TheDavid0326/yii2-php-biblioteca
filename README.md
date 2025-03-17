@@ -1,19 +1,12 @@
-<p align="center">
-    <img src="https://i.imgur.com/rBMKdmX.jpeg" height="500px">
-    <h1 align="center">Página de Inicio</h1>
-    <br>
-</p>
-
-Yii 2 Basic Project Template is a skeleton [Yii 2](https://www.yiiframework.com/) application best for
-rapidly creating small projects.
-
-The template contains the basic features including user login/logout and a contact page.
-It includes all commonly used configurations that would allow you to focus on adding new
-features to your application.
-
 # Biblioteca Personal - Gestión de Libros
 
 Este proyecto es una aplicación web desarrollada en **Yii2** que permite a los usuarios gestionar su colección de libros de manera sencilla y eficaz. Desde la organización de títulos, autores y géneros, hasta la personalización con portadas de libros, esta aplicación está diseñada para bibliófilos que desean mantener su biblioteca ordenada y accesible.
+
+<p align="center">
+    <h1 align="center">Página de Inicio</h1>
+    <img src="https://i.imgur.com/rBMKdmX.jpeg" height="500px">
+    <br>
+</p>
 
 ## Características Principales
 
