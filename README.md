@@ -5,7 +5,7 @@ Este proyecto es una aplicación web desarrollada en **Yii2** que permite a los 
 
 <h1 align="center">Página de Inicio</h1>
 <p align="center">
-    <img src="https://i.imgur.com/rBMKdmX.jpeg" height="500px">
+    <img src="https://i.imgur.com/rBMKdmX.jpeg" height="400px">
     <br>
 </p>
 
@@ -82,12 +82,12 @@ Este proyecto es una aplicación web desarrollada en **Yii2** que permite a los 
 
 <h1 align="center">Lista de libros privada</h1>
 <p align="center">
-  <img src="https://i.imgur.com/8TMpsYv.jpeg" height="500">
+  <img src="https://i.imgur.com/8TMpsYv.jpeg" height="400">
 </p>
 
 <h1 align="center">Lista de libros pública</h1>
 <p align="center">
-  <img src="https://i.imgur.com/xtwilfR.jpeg" height="500">
+  <img src="https://i.imgur.com/xtwilfR.jpeg" height="400">
 </p>
 
 <h1 align="center">Formulario de Actualización</h1>
